@@ -1,0 +1,57 @@
+html {
+    font-family: "Calibri";
+}
+
+body {
+    background-attachment: fixed;
+    background-color: rgb(199, 221, 221);
+    background-image: url("C:/MyWeb/1/Test/Image/fon.jpg");
+    background-size: cover;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+a {
+    color: yellowgreen;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+a:active {
+    color: rgb(10, 241, 29);
+    border-radius: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: gray;
+
+}
+
+.ban {
+    height: 180px;
+    background-image: url("Image/forest.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid red;
+
+}
+
+.banner {
+    height: 180px;
+    background-image: url("Image/forest.jpg");
+    background-size: contain;
+    background-position: left;
+    background-position: right;
+    border: 5px solid rgb(139, 105, 105);
+}
