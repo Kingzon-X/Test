@@ -5,10 +5,11 @@ html {
 body {
     background-attachment: fixed;
     background-color: rgb(199, 221, 221);
-    background-image: url("C:/MyWeb/1/Test/Image/fon.jpg");
+    background-image: url("C:/MyWeb/Test/Image/fon.jpg");
     background-size: cover;
 
 }
+
 
 .nav {
     display: flex;
@@ -40,18 +41,55 @@ a:visited {
 
 .ban {
     height: 180px;
-    background-image: url("Image/forest.jpg");
+    background-image: url("C:/MyWeb/Test/Image/forest.jpg");
     background-size: cover;
     background-position: center;
     border: 2px solid red;
 
 }
 
-.banner {
-    height: 180px;
-    background-image: url("Image/forest.jpg");
-    background-size: contain;
-    background-position: left;
-    background-position: right;
-    border: 5px solid rgb(139, 105, 105);
+
+.flex_container {
+    background-color: rgb(185, 56, 56);
+    column-gap: 25px;
+    padding: 53px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex_element {
+    background-color: aliceblue;
+    display: flex;
+    padding: 13px;
+}
+
+.flex_word {
+    background-color: aqua;
+    padding: 13px;
+}
+
+.flex_word2 {
+    background-color: rgb(6, 46, 46);
+    padding: 13px;
+    flex-direction: row-reverse;
+}
+
+.flex_container0 {
+    background-color: blue;
+    display: flex;
+
+    gap: 10px;
+    padding: 20px;
+}
+
+.word1 {
+    background-color: rgb(141, 76, 76);
+    color: yellowgreen;
+    height: 300px;
+    width: 400px;
+    flex: 0 1 auto;
+}
+
+.fixed_size {
+    flex: 0 0 40%
 }
