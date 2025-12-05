@@ -50,44 +50,93 @@ a:visited {
 
 
 .flex_container {
-    background-color: rgb(185, 56, 56);
+    background-color: bisque;
     column-gap: 25px;
     padding: 53px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+
 }
 
-.flex_element {
+.ford {
+    background-color: yellow;
+    align-self: center;
+    font-style: oblique;
+    text-align: center;
+    
+    
+}
+
+h3 {
+    margin: 0;
+}
+
+.flex_word0 {
     background-color: aliceblue;
     display: flex;
     padding: 13px;
+    gap: 20px;
+    align-self: center;
+    width: 200px;
+    height: 20px;
+}
+
+.flex_word1 {
+    background-color: aqua;
+    padding: 13px;
+    gap: 20px;
+    flex-direction: row;
+    align-self: center;
+    width: 200px;
+    height: 20px;
+
 }
 
 .flex_word {
-    background-color: aqua;
+    gap: 20px;
     padding: 13px;
+    border: 10px solid saddlebrown;
+    outline: 5px solid goldenrod;
+    outline-offset: -10px;
+
 }
+
 
 .flex_word2 {
     background-color: rgb(6, 46, 46);
     padding: 13px;
     flex-direction: row-reverse;
+    align-self: center;
+    width: 200px;
+    height: 20px;
 }
 
 .flex_container0 {
-    background-color: blue;
+    background-color: bisque;
     display: flex;
-
-    gap: 10px;
+    justify-content: center;
+    gap: 0 10px;
     padding: 20px;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: flex-start;
 }
 
 .word1 {
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: flex-start;
     background-color: rgb(141, 76, 76);
+    border: 5px salmon;
+    gap: 10px;
+    padding: 10px;
     color: yellowgreen;
-    height: 300px;
-    width: 400px;
-    flex: 0 1 auto;
+    height: 320px;
+    width: 280px;
+
 }
 
 .fixed_size {
